@@ -36,9 +36,9 @@ return [
     ],
 
     'qq' => [
-        'client_id' => '1106074789',
-        'client_secret' => 'xtRW86zzpANNlLKA',
-        'redirect' => 'http://cpcomic.com',
-    ],
+    'client_id' => env('QQ_KEY'),
+    'client_secret' => env('QQ_SECRET'),
+    'redirect' => env('QQ_REDIRECT_URI'),
+], 
 
 ];
